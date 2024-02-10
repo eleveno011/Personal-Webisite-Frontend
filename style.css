@@ -1,0 +1,40 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #963a41,#32a6a8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin-bottom: 30px;
+  }
+
+.bottom-container{
+    background-color: #71cae7;
+    margin-top: 5;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .skill{
+    color: rgb(0, 166, 255);
+  }
+
+        /* Additional styles to adjust spacing and alignment */
+        .image-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 200px; /* Set your preferred width */
+            height: auto;
+            margin-right: 20px; /* Add some spacing between the image and text */
+            margin-bottom: 20px;
+        }
+
+        .text-container {
+            flex: 1;
+            padding: 20px;
+        }
